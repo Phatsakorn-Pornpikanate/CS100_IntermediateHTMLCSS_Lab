@@ -10,34 +10,66 @@ body{
 
 header, nav, article, div, footer{
     padding: 10px;
-    background-color: yellow;
     border: 1px solid grey;
     text-align: center;
 }
 
 header{
     width: 100%;
+    background-color: rgb(228, 75, 75);
 }
 
 nav{    
     float: left;
     width: 20%;
     height: 200px;
+    background-color: rgb(235, 118, 118);
+}
+
+#txnav ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#txnav li a {
+    display: block;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+}
+  
+#txnav li a.active {
+    background-color: #83f2c9;
+    color: white;
+}
+  
+#txnav li a:hover:not(.active) {
+    background-color: #bf3a3a;
+    color: white;
 }
 
 article{ 
     float: left;
     width: 60%;
     height: 200px;
+    background-color: rgb(247, 212, 212);
 }
 
 div {   
     float: right;
     width: 20%;
     height: 200px;
+    background-color: rgb(235, 118, 118);
 }
 
 footer{ 
     clear: both;
     width: 100%;
+    background-color: rgb(228, 75, 75);
 }
