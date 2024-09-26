@@ -60,7 +60,7 @@ nav ul li a:hover {
 main {
     padding: 20px;
     float: right;
-    width: 77%;
+    width: 77%; 
 }
 
 /* Info Section Styles */
@@ -143,6 +143,7 @@ footer {
     background-color: #ffe066;
     padding: 10px;
     text-align: center;
+    clear: both;
 }
 
 footer p {
